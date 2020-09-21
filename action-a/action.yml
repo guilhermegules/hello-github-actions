@@ -1,0 +1,17 @@
+name: "Hello actions"
+description: "Actions are awesome"
+author: "guilherme.moreira@ilegra.com"
+
+inputs:
+  MY_NAME:
+    description: "Who to greet"
+    required: true
+    default: "World"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
